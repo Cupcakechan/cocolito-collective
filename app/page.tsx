@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import SectionHeader from "@/components/SectionHeader";
 import ProjectShelf from "@/components/ProjectShelf";
 import AboutPreview from "@/components/AboutPreview";
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       </section>
 
       <AboutPreview />
+      <ContactSection />
     </main>
   );
 }

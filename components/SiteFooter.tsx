@@ -5,8 +5,8 @@ import LogoMark from "@/components/LogoMark";
 export default function SiteFooter() {
   return (
     <footer
-      id="contact"
-      className="scroll-mt-24 border-t border-paper/10 bg-panel"
+      id="site-footer"
+      className="border-t border-paper/10 bg-panel"
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-10 sm:flex-row sm:items-center sm:justify-between sm:px-8">
         <div>
@@ -37,6 +37,16 @@ export default function SiteFooter() {
                   className="transition-colors hover:text-brand"
                 >
                   itch.io
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Cupcakechan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition-colors hover:text-brand"
+                >
+                  GitHub
                 </a>
               </li>
             </ul>
