@@ -27,6 +27,27 @@ export interface ProjectLinks {
   caseStudy?: string;
 }
 
+// ── DevLog ──────────────────────────────────────────────
+// A devlog entry is dated, optionally versioned, and built from
+// sections of bullets. For game projects, emoji belong in the
+// strings (playful voice); apps stay plain (measured voice).
+
+export interface DevlogSection {
+  /** e.g. "🏮 A New Stage" (games) — omit for plain app-style bullets. */
+  heading?: string;
+  /** Bullet lines; emoji allowed inline. */
+  items: string[];
+}
+
+export interface DevlogEntry {
+  version?: string; // e.g. "v0.4.0"
+  date: string; // "YYYY-MM-DD" — used for newest-first sorting
+  title: string;
+  intro?: string; // one scene-setting sentence (games)
+  sections: DevlogSection[];
+  images?: ProjectImage[];
+}
+
 export interface Project {
   // --- Identity & cards ---
   slug: string; // URL: /projects/<slug>
@@ -49,6 +70,9 @@ export interface Project {
   // --- Media (optional until real assets exist) ---
   heroImage?: ProjectImage;
   gallery?: ProjectImage[];
+
+  // --- Devlog (optional; the DevLog section renders only if entries exist) ---
+  devlog?: DevlogEntry[];
 
   // --- Links (optional) ---
   links?: ProjectLinks;
