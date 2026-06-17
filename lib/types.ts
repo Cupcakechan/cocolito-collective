@@ -28,14 +28,18 @@ export interface ProjectLinks {
 }
 
 // ── DevLog ──────────────────────────────────────────────
-// A devlog entry is dated, optionally versioned, and built from
-// sections of bullets. For game projects, emoji belong in the
-// strings (playful voice); apps stay plain (measured voice).
+// A devlog entry is dated, optionally versioned, and can mix:
+//   - intro:    one scene-setting line
+//   - body:     prose paragraphs (for narrative entries)
+//   - sections: bulleted sections with optional headings
+//   - outro:    a closing sign-off line
+// For game projects, emoji belong in the strings (playful voice);
+// apps stay plain (measured voice).
 
 export interface DevlogSection {
-  /** e.g. "🏮 A New Stage" (games) — omit for plain app-style bullets. */
+  /** e.g. "🏮 A New Stage" — omit for plain, headingless bullets. */
   heading?: string;
-  /** Bullet lines; emoji allowed inline. */
+  /** Bullet lines; emoji allowed inline. The page draws the bullet itself. */
   items: string[];
 }
 
@@ -43,8 +47,10 @@ export interface DevlogEntry {
   version?: string; // e.g. "v0.4.0"
   date: string; // "YYYY-MM-DD" — used for newest-first sorting
   title: string;
-  intro?: string; // one scene-setting sentence (games)
-  sections: DevlogSection[];
+  intro?: string; // opening scene-setting line
+  body?: string[]; // prose paragraphs (narrative entries without bullets)
+  sections?: DevlogSection[]; // bulleted sections
+  outro?: string; // closing sign-off line
   images?: ProjectImage[];
 }
 
@@ -57,7 +63,7 @@ export interface Project {
   status: ProjectStatus;
   stack: string[]; // tech chips
   accent: string; // hex, e.g. "#F2A540"
-  featured?: boolean; // include on the home "Playable Shelf"
+  featured?: boolean; // shows in the large card on the shelf
   description: string; // short pitch (cards + project hero)
 
   // --- Detail page body (all optional; sections render only when present) ---

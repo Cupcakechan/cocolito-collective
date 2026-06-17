@@ -18,7 +18,9 @@ export default function ProjectShelf() {
     [active],
   );
 
-  const [featured, ...rest] = visible;
+  // Feature the flagged project when it's in view; otherwise the first one.
+  const featured = visible.find((project) => project.featured) ?? visible[0];
+  const rest = visible.filter((project) => project !== featured);
 
   return (
     <div className="mt-6">
