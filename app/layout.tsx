@@ -18,7 +18,7 @@ const hanken = Hanken_Grotesk({
   display: "swap",
 });
 
-const TITLE = "Cocolito Collective — Small games. Useful apps. Built with care.";
+const TITLE = "Cocolito Collective — games & apps, built with care";
 const DESCRIPTION =
   "A small indie studio archive by Daniel Dilena: games, apps, and creative software, built with care.";
 
