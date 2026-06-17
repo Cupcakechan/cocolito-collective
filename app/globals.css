@@ -1,26 +1,70 @@
 @import "tailwindcss";
 
+/*
+  Cocolito Collective — design tokens (Tailwind v4 CSS-first config).
+  Each --color-* token becomes a utility automatically, e.g.
+  --color-brand  ->  bg-brand / text-brand / border-brand
+*/
+@theme {
+  /* Surfaces (the dark "studio room") */
+  --color-espresso: #0e0a07; /* page background      */
+  --color-panel: #18110d; /* dark panel           */
+  --color-panel-warm: #241812; /* warm dark panel      */
+
+  /* Brand orange (global accent) */
+  --color-brand: #ea6218; /* logo orange / primary */
+  --color-brand-deep: #b4450a; /* deep orange           */
+  --color-brand-shadow: #7a2f08; /* burnt shadow          */
+
+  /* Paper (the cream "artifacts" on the shelf) */
+  --color-cream: #fff9f1;
+  --color-paper: #f4e9d8;
+  --color-peach: #ead9cf;
+
+  /* Text */
+  --color-ink: #251405; /* espresso text (on cream) */
+  --color-muted: #756d68; /* muted gray               */
+
+  /* Project-specific accents (reserved per project) */
+  --color-honey: #f2a540; /* Honey River Run   */
+  --color-spirit: #6b5ea8; /* Familiar Frenzy   */
+  --color-savory: #4a7c59; /* Savory Shelf      */
+  --color-cyber: #5aa7ff; /* Cyber Crusader    */
+
+  /* Fonts (wired from next/font in layout.tsx) */
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-body: var(--font-hanken), system-ui, sans-serif;
+}
+
+/* ---- Base styles ---- */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  color-scheme: dark;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-espresso);
+  color: var(--color-cream);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Visible, on-brand keyboard focus everywhere */
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
