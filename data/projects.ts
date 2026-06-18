@@ -276,7 +276,7 @@ export const projects: Project[] = [
     category: "Games",
     status: "Released",
     stack: ["Unity 6"],
-    accent: "#C24A3A", // provisional — warm 16-bit red
+    accent: "#C24A3A", // warm 16-bit red
     description:
       "A lightning-fast 16-bit endless flyer inspired by Jetpack Joyride. Don the Red Mask and blast through a shifting world of goblins, arrows, and ancient hazards.",
     notes: "20 Games Challenge — Game 2. Art & audio by ELV Games.",
@@ -309,7 +309,7 @@ export const projects: Project[] = [
     category: "Games",
     status: "Released",
     stack: ["Unity 6"],
-    accent: "#2E9CA6", // provisional — electric teal
+    accent: "#2E9CA6", // electric teal
     description:
       "A chaotic mechanical-keyboard twist on Pong. Swing a giant Spacebar paddle as the ball morphs into a new key on every bounce — clacks, glowing trails, screen shake, and a 5-minute Time Attack.",
     notes: "20 Games Challenge — Game 1. Art & audio by ELV Games.",
@@ -342,7 +342,7 @@ export const projects: Project[] = [
     category: "Apps",
     status: "In Progress",
     stack: ["SwiftUI", "Supabase", "Next.js API Routes"],
-    accent: "#4A7C59", // soft green
+    accent: "#4A7C59", // soft green — matches the savoryshelf.com brand
     description:
       "A recipe and cooking companion focused on clean recipe saving, practical cooking workflows, and distraction-free organization.",
     notes:
@@ -355,7 +355,7 @@ export const projects: Project[] = [
     category: "Prototypes",
     status: "In Progress",
     stack: ["JavaScript", "Canvas", "HTML"],
-    accent: "#5AA7FF", // provisional — tool blue
+    accent: "#5AA7FF", // tool blue
     description:
       "Most sprite previewers tell you whether an animation is smooth — not whether it'll feel like a game. Sprite Alive closes that gap: a single self-contained HTML file for previewing attacks, idles, walks, and hits with synced placeholder effects — no engine import, nothing uploaded.",
     notes:
