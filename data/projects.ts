@@ -280,6 +280,12 @@ export const projects: Project[] = [
     description:
       "A lightning-fast 16-bit endless flyer inspired by Jetpack Joyride. Don the Red Mask and blast through a shifting world of goblins, arrows, and ancient hazards.",
     notes: "20 Games Challenge — Game 2. Art & audio by ELV Games.",
+    summary:
+      "Red Mask Flyer is a lightning-fast 16-bit endless flyer in the spirit of Jetpack Joyride. Don the Red Mask and blast through a shifting world of goblins, arrows, and ancient hazards, banking distance and coins until something finally clips you. Coins go toward a shop of unlockable character skins — like the Horned Hero — that stick with you from run to run.",
+    whatIBuilt:
+      "Built in Unity 6 and playable in the browser. The part I most wanted to get right was a seamless parallax background — layered scrolling that holds together cleanly while tiles, props, and enemies move through it. On top of that sit distance-based scoring with a saved best, a health system, and my first proper shop: a coin economy that unlocks character skins, with those unlocks persisting from run to run. Almost all of the art and audio are ELV Games asset packs; the code, design, and feel are mine.",
+    whatMakesItInteresting:
+      "It's Game 2 of the 20 Games Challenge, and the first time I'd built either a seamless parallax world or a real unlock shop — which was the whole point of taking it on. The piece I'm happiest with is the difficulty ramp: it climbs hard enough to stay tense without tipping into unfair, which is what gives it that one-more-run pull.",
     links: {
       itch: "https://mrcanela.itch.io/red-mask-flyer",
       play: "https://mrcanela.itch.io/red-mask-flyer",
