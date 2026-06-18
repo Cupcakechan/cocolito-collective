@@ -1,5 +1,6 @@
 // components/ProjectCard.tsx
 import Link from "next/link";
+import Image from "next/image";
 import type { Project } from "@/lib/types";
 import ProjectBadge from "@/components/ProjectBadge";
 
@@ -15,6 +16,8 @@ export default function ProjectCard({ project, index, featured = false }: Props)
   const catalog = `CC · ${String(index + 1).padStart(2, "0")}`;
   // Expose the project accent as a CSS variable so hover styles can use it.
   const accentStyle = { "--accent": project.accent } as React.CSSProperties;
+  // Use the project's hero screenshot on the card when it exists.
+  const hero = project.heroImage;
 
   return (
     <Link
@@ -30,22 +33,40 @@ export default function ProjectCard({ project, index, featured = false }: Props)
         className="absolute left-0 top-0 z-10 h-full w-[5px] bg-[var(--accent)]"
       />
 
-      {/* preview area — placeholder until real screenshots are added */}
+      {/* preview area — real hero screenshot when present, accent placeholder otherwise */}
       <div
-        className={`relative flex items-center justify-center overflow-hidden ${
+        className={`relative overflow-hidden ${
           featured ? "min-h-[220px]" : "aspect-[16/10]"
-        }`}
-        style={{ backgroundColor: `${project.accent}1f` }}
+        } ${hero ? "" : "flex items-center justify-center"}`}
+        style={hero ? undefined : { backgroundColor: `${project.accent}1f` }}
       >
-        <span
-          aria-hidden
-          className="font-mono text-4xl text-ink/15 transition-colors duration-200 group-hover:text-[var(--accent)]"
-        >
-          {"</>"}
-        </span>
-        <span className="absolute bottom-3 left-4 font-mono text-[0.7rem] uppercase tracking-[0.16em] text-ink/35">
-          {catalog}
-        </span>
+        {hero ? (
+          <>
+            <Image
+              src={hero.src}
+              alt={hero.alt}
+              fill
+              sizes="(min-width: 640px) 50vw, 100vw"
+              className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+            />
+            {/* keep the catalog tag legible on top of the photo */}
+            <span className="absolute bottom-3 left-4 rounded bg-espresso/60 px-2 py-0.5 font-mono text-[0.7rem] uppercase tracking-[0.16em] text-cream/90">
+              {catalog}
+            </span>
+          </>
+        ) : (
+          <>
+            <span
+              aria-hidden
+              className="font-mono text-4xl text-ink/15 transition-colors duration-200 group-hover:text-[var(--accent)]"
+            >
+              {"</>"}
+            </span>
+            <span className="absolute bottom-3 left-4 font-mono text-[0.7rem] uppercase tracking-[0.16em] text-ink/35">
+              {catalog}
+            </span>
+          </>
+        )}
       </div>
 
       {/* body */}
