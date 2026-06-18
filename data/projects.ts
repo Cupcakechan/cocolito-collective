@@ -15,8 +15,14 @@ export const projects: Project[] = [
     stack: ["Unity 6"],
     accent: "#F2A540", // honey gold
     description:
-      "Pilot Captain Bumble down an endless honey river — dodge hazards, manage fuel, blast through, and chase the high score. A warm, golden take on the NES-era river shooter.",
-    notes: "Should feel warm, golden, retro, and arcade-like.",
+      "Pilot Captain Bumble down an endless honey river — dodge hazards, manage fuel, blast through, and chase the high score. A warm, golden take on the classic river shooter.",
+    notes: "20 Games Challenge — Game 3. Art made with PixelLab.ai. Should feel warm, golden, retro, and arcade-like.",
+    summary:
+      "Honey River Raid is a warm, golden spin on River Raid — the 1982 Atari 2600 classic — reimagined with bees and honey. Pilot Captain Bumble up an endless honey river between flower-dotted banks: manage your fuel, blast past the real-life predators that hunt bees, and ride the current as the channel narrows and the score climbs. Honey pots are your lives, and honey bridges mark your checkpoints.",
+    whatIBuilt:
+      "Built in Unity 6 and playable in the browser. It carries forward the endless-scrolling background work from Red Mask Flyer, this time as a top-down river: fuel to keep topped up, predators to blast or dodge, honey-bridge checkpoints, and a high-score chase. The hardest part was making the river narrow inside a level that scrolls forever, and tuning that squeeze just right — tight enough to bite, fair enough to feel earned. The pixel art is my own, made with PixelLab.ai.",
+    whatMakesItInteresting:
+      "The whole thing started with a bee outside my window, which turned into the theme: a honey-and-flowers reskin of River Raid, with the enemies pulled straight from real bees' predators. It's Game 3 of the 20 Games Challenge, where I kept pushing the endless-background tech a step further than the game before it.",
     links: {
       itch: "https://mrcanela.itch.io/honey-river-run",
       play: "https://mrcanela.itch.io/honey-river-run",
