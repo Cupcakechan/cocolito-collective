@@ -27,6 +27,12 @@ export interface ProjectLinks {
   caseStudy?: string;
 }
 
+/** A small attribution shown low on the detail page (asset packs, jams, tools). */
+export interface ProjectCredit {
+  label: string; // e.g. "Sprites by PixelLab.ai"
+  href?: string; // optional external link
+}
+
 // ── DevLog ──────────────────────────────────────────────
 // A devlog entry is dated, optionally versioned, and can mix:
 //   - intro:    one scene-setting line
@@ -82,4 +88,7 @@ export interface Project {
 
   // --- Links (optional) ---
   links?: ProjectLinks;
+
+  // --- Credits (optional; a subtle attribution line on the detail page) ---
+  credits?: ProjectCredit[];
 }

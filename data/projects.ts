@@ -49,6 +49,9 @@ export const projects: Project[] = [
         caption: "Deeper, narrower, faster.",
       },
     ],
+    credits: [
+      { label: "Sprites by PixelLab.ai", href: "https://www.pixellab.ai/" },
+    ],
   },
   {
     slug: "familiar-frenzy",
@@ -72,6 +75,10 @@ export const projects: Project[] = [
       itch: "https://mrcanela.itch.io/familiar-frenzy",
       play: "https://mrcanela.itch.io/familiar-frenzy",
     },
+    credits: [
+      { label: "Made for AI Game Jam 3", href: "https://itch.io/jam/ai-game-jam-3" },
+      { label: "Sprites by PixelLab.ai", href: "https://www.pixellab.ai/" },
+    ],
     heroImage: {
       src: "/images/projects/familiar-frenzy/familiar-frenzy-capsule.png",
       alt: "Familiar Frenzy cover art — a witch in a purple hat and robe stands on a glowing rune circle before a swirling purple portal, with her translucent ghost-cat familiar beside her and the game's logo on a banner above.",
@@ -319,6 +326,9 @@ export const projects: Project[] = [
         caption: "Into the cloudy skies.",
       },
     ],
+    credits: [
+      { label: "Art & audio by ELV Games", href: "https://elvgames.itch.io/" },
+    ],
   },
   {
     slug: "key-pong",
@@ -357,6 +367,9 @@ export const projects: Project[] = [
         alt: "Key Pong gameplay — two spacebar-shaped paddles face off across a dark board lined with keycaps as the ball travels down the center.",
         caption: "Spacebar paddles mid-rally.",
       },
+    ],
+    credits: [
+      { label: "Art & audio by ELV Games", href: "https://elvgames.itch.io/" },
     ],
   },
   {

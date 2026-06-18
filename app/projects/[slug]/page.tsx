@@ -91,6 +91,28 @@ export default async function ProjectPage({
       {project.devlog && project.devlog.length > 0 ? (
         <DevLog entries={project.devlog} />
       ) : null}
+
+      {project.credits && project.credits.length > 0 ? (
+        <p className="mt-12 border-t border-paper/10 pt-6 text-sm text-cream/40">
+          {project.credits.map((credit, index) => (
+            <span key={index}>
+              {index > 0 ? <span aria-hidden> · </span> : null}
+              {credit.href ? (
+                <a
+                  href={credit.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-4 transition-colors hover:text-brand"
+                >
+                  {credit.label}
+                </a>
+              ) : (
+                credit.label
+              )}
+            </span>
+          ))}
+        </p>
+      ) : null}
     </main>
   );
 }
