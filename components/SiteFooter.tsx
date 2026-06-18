@@ -20,7 +20,7 @@ export default function SiteFooter() {
           <nav aria-label="Footer">
             <ul className="flex flex-wrap gap-5 text-cream/70">
               <li>
-                <Link href="/#shelf" className="transition-colors hover:text-brand">
+                <Link href="/projects" className="transition-colors hover:text-brand">
                   Projects
                 </Link>
               </li>
