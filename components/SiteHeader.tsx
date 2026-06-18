@@ -3,7 +3,7 @@ import Link from "next/link";
 import LogoMark from "@/components/LogoMark";
 
 const nav = [
-  { label: "Projects", href: "/#shelf" },
+  { label: "Projects", href: "/projects" },
   { label: "About", href: "/#about" },
   { label: "Contact", href: "/#contact" },
 ];

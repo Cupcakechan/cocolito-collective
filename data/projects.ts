@@ -313,6 +313,12 @@ export const projects: Project[] = [
     description:
       "A chaotic mechanical-keyboard twist on Pong. Swing a giant Spacebar paddle as the ball morphs into a new key on every bounce — clacks, glowing trails, screen shake, and a 5-minute Time Attack.",
     notes: "20 Games Challenge — Game 1. Art & audio by ELV Games.",
+    summary:
+      "Key Pong is a chaotic, clacky take on Pong played across a giant mechanical keyboard. Two Spacebar keys are the paddles, the arena is ringed with keycaps, and the ball is a keycap that morphs into a different key on every bounce — wrapped in mechanical clacks, glowing trails, and screen shake. Two ways to play: an endless Classic mode and a five-minute Time Attack.",
+    whatIBuilt:
+      "Built in Unity 6 and playable in the browser. The trickiest piece was the key-morph that swaps the ball's keycap on every bounce — I ended up building two of them, one driving the player's side and one for the AI. Around that sit the paddle-and-ball physics, the mechanical juice (clacks, glowing trails, screen shake), and two modes, including a Time Attack that saves your best run. The art and music are from ELV Games asset packs; the code, design, and feel are mine.",
+    whatMakesItInteresting:
+      "Pong is about the simplest game there is to build, so the point was to make it unmistakably mine. Leaning into a mechanical-keyboard theme — Spacebar paddles, a morphing keycap ball, a clack on every hit — turns a bare rally into something tactile and a little absurd. It's also Game 1 of the 20 Games Challenge: my run at finishing twenty games, each built around a different mechanic, so they reach the shelf instead of stalling half-done, and each one teaches me a new genre.",
     links: {
       itch: "https://mrcanela.itch.io/key-pong",
       play: "https://mrcanela.itch.io/key-pong",
