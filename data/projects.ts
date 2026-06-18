@@ -38,6 +38,33 @@ export const projects: Project[] = [
       itch: "https://mrcanela.itch.io/familiar-frenzy",
       play: "https://mrcanela.itch.io/familiar-frenzy",
     },
+    heroImage: {
+      src: "/images/projects/familiar-frenzy/boss-watching-hand.png",
+      alt: "Familiar Frenzy gameplay — the witch and her ghost-cat familiar facing the Watching Hand boss in the dungeon arena.",
+      caption: "Facing the Watching Hand boss.",
+    },
+    gallery: [
+      {
+        src: "/images/projects/familiar-frenzy/title-screen.png",
+        alt: "Familiar Frenzy title screen showing the game logo and main menu.",
+        caption: "Title screen.",
+      },
+      {
+        src: "/images/projects/familiar-frenzy/goblin-bonker.png",
+        alt: "The witch attacks with spirit magic as a Goblin Bonker closes in.",
+        caption: "A Goblin Bonker incoming.",
+      },
+      {
+        src: "/images/projects/familiar-frenzy/grimoire.png",
+        alt: "The Grimoire screen listing familiar upgrades and evolutions.",
+        caption: "The Grimoire of upgrades.",
+      },
+      {
+        src: "/images/projects/familiar-frenzy/paused.png",
+        alt: "The pause screen showing run stats — mode, wave, level, score, and health.",
+        caption: "Run stats on pause.",
+      },
+    ],
     // Newest entries first (the page also sorts by date, so order is forgiving).
     devlog: [
       {
