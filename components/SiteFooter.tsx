@@ -30,6 +30,11 @@ export default function SiteFooter() {
                 </Link>
               </li>
               <li>
+                <Link href="/how-i-use-ai" className="transition-colors hover:text-brand">
+                  On AI
+                </Link>
+              </li>
+              <li>
                 <a
                   href="https://mrcanela.itch.io"
                   target="_blank"

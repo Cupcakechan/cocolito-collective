@@ -5,6 +5,7 @@ import LogoMark from "@/components/LogoMark";
 const nav = [
   { label: "Projects", href: "/projects" },
   { label: "About", href: "/#about" },
+  { label: "On AI", href: "/how-i-use-ai" },
   { label: "Contact", href: "/#contact" },
 ];
 
