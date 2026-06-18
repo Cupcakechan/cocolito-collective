@@ -61,7 +61,13 @@ export const projects: Project[] = [
     featured: true, // shows in the large "featured" card on the shelf
     description:
       "A spooky-cute top-down survival arena: a witch dodges enemy waves while her ghost-cat familiar does the fighting — and powers her upgrades.",
-    notes: "Should feel magical, purple, ghostly, cute, and chaotic.",
+    notes: "AI Game Jam, 3rd Edition (theme: Familiar). Sprites via PixelLab.ai, hand-edited in Aseprite. Should feel magical, purple, ghostly, cute, and chaotic.",
+    summary:
+      "Familiar Frenzy is a spooky-cute survival arena where you play a witch who can't fight back — all she can do is dodge. The fighting falls to her ghost-cat familiar, which you feed, upgrade, and evolve as enemy waves and telegraphed bosses close in. Survive long enough to earn Spirit Crystals, then spend them between runs on outfits and familiar collars that reshape how the cat fights.",
+    whatIBuilt:
+      "Built from scratch in HTML Canvas and JavaScript with no game engine — the technical challenge I set myself this time. It grew into a full little roguelite: a familiar that fights on its own and evolves down upgrade paths, a roster of telegraphed enemies and randomized bosses each logged in a Bestiary, and run-to-run progression through Spirit Crystals and a Wardrobe of outfits and collars. Around that sit personal bests, run recaps, layered sound, and a chatty familiar that introduces each new threat.",
+    whatMakesItInteresting:
+      "It's my entry for the AI Game Jam (3rd Edition); the theme was 'Familiar,' which I took at face value — a witch and the cat familiar that fights for her. That reversal is the hook: you never attack, you only survive, while the familiar deals the damage, so it all comes down to positioning and which upgrades you feed it. It's the most polished thing I've made — I'm proudest of the bosses and enemies, each posing a different problem to read and dodge, and most of all of the art: every sprite generated with PixelLab.ai, then hand-edited in Aseprite down to the last detail.",
     links: {
       itch: "https://mrcanela.itch.io/familiar-frenzy",
       play: "https://mrcanela.itch.io/familiar-frenzy",
