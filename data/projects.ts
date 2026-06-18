@@ -21,6 +21,28 @@ export const projects: Project[] = [
       itch: "https://mrcanela.itch.io/honey-river-run",
       play: "https://mrcanela.itch.io/honey-river-run",
     },
+    heroImage: {
+      src: "/images/projects/honey-river-run/honey-river-run-menu.png",
+      alt: "Honey River Raid title screen — the game's logo over a sunny grassy field dotted with beehives and flowers, with Play, How to Play, and High Scores buttons.",
+      caption: "Title screen.",
+    },
+    gallery: [
+      {
+        src: "/images/projects/honey-river-run/honey-river-run-gameplay-open.png",
+        alt: "Honey River Raid gameplay — Captain Bumble the bee flies up a wide honey-colored river between flowery green banks, with the score and fuel meter on screen.",
+        caption: "Open water early in a run.",
+      },
+      {
+        src: "/images/projects/honey-river-run/honey-river-run-gameplay-honeycomb.png",
+        alt: "Honey River Raid gameplay — the bee approaches a dripping honeycomb barrier that narrows the river channel.",
+        caption: "Squeezing past a honeycomb.",
+      },
+      {
+        src: "/images/projects/honey-river-run/honey-river-run-gameplay-obstacles.png",
+        alt: "Honey River Raid gameplay — the bee threads a narrower stretch of the honey river past a flower and a hazard as the score climbs.",
+        caption: "Deeper, narrower, faster.",
+      },
+    ],
   },
   {
     slug: "familiar-frenzy",
@@ -39,15 +61,19 @@ export const projects: Project[] = [
       play: "https://mrcanela.itch.io/familiar-frenzy",
     },
     heroImage: {
-      src: "/images/projects/familiar-frenzy/boss-watching-hand.png",
-      alt: "Familiar Frenzy gameplay — the witch and her ghost-cat familiar facing the Watching Hand boss in the dungeon arena.",
-      caption: "Facing the Watching Hand boss.",
+      src: "/images/projects/familiar-frenzy/familiar-frenzy-capsule.png",
+      alt: "Familiar Frenzy cover art — a witch in a purple hat and robe stands on a glowing rune circle before a swirling purple portal, with her translucent ghost-cat familiar beside her and the game's logo on a banner above.",
     },
     gallery: [
       {
         src: "/images/projects/familiar-frenzy/title-screen.png",
         alt: "Familiar Frenzy title screen showing the game logo and main menu.",
         caption: "Title screen.",
+      },
+      {
+        src: "/images/projects/familiar-frenzy/boss-watching-hand.png",
+        alt: "Familiar Frenzy gameplay — the witch and her ghost-cat familiar facing the Watching Hand boss in the dungeon arena.",
+        caption: "Facing the Watching Hand boss.",
       },
       {
         src: "/images/projects/familiar-frenzy/goblin-bonker.png",
@@ -258,6 +284,23 @@ export const projects: Project[] = [
       itch: "https://mrcanela.itch.io/red-mask-flyer",
       play: "https://mrcanela.itch.io/red-mask-flyer",
     },
+    heroImage: {
+      src: "/images/projects/red-mask-flyer/red-mask-flyer-menu.png",
+      alt: "Red Mask Flyer title screen — the ornate red 'Red Mask Flyer' logo on a dark background above Start Run, How to Play, High Score, and Quit buttons.",
+      caption: "Title screen.",
+    },
+    gallery: [
+      {
+        src: "/images/projects/red-mask-flyer/red-mask-flyer-shop.png",
+        alt: "Red Mask Flyer shop screen — two unlockable characters, the Red Mask ninja and the Horned Hero, shown in an ornate gold frame with a coin total.",
+        caption: "Unlockable characters in the shop.",
+      },
+      {
+        src: "/images/projects/red-mask-flyer/red-mask-flyer-gameplay.png",
+        alt: "Red Mask Flyer gameplay — the Horned Hero character runs along the ground under a purple cloudy sky, with a health heart, a distance counter, and a coin to collect.",
+        caption: "Into the cloudy skies.",
+      },
+    ],
   },
   {
     slug: "key-pong",
@@ -274,6 +317,23 @@ export const projects: Project[] = [
       itch: "https://mrcanela.itch.io/key-pong",
       play: "https://mrcanela.itch.io/key-pong",
     },
+    heroImage: {
+      src: "/images/projects/key-pong/key-pong-menu.png",
+      alt: "Key Pong title screen — the neon 'KEY PONG' logo over a mechanical-keyboard background, with Classic, Time Attack, How to Play, and Quit menu options and glowing teal and magenta keys.",
+      caption: "Title screen.",
+    },
+    gallery: [
+      {
+        src: "/images/projects/key-pong/key-pong-gameplay-morph.png",
+        alt: "Key Pong gameplay — the ball nears the right spacebar paddle while morphing into a different key, on a dark board ringed with keycaps.",
+        caption: "The ball becomes a new key on every bounce.",
+      },
+      {
+        src: "/images/projects/key-pong/key-pong-gameplay-rally.png",
+        alt: "Key Pong gameplay — two spacebar-shaped paddles face off across a dark board lined with keycaps as the ball travels down the center.",
+        caption: "Spacebar paddles mid-rally.",
+      },
+    ],
   },
   {
     slug: "savory-shelf",
