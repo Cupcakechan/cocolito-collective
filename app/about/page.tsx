@@ -84,6 +84,14 @@ export default function AboutPage() {
             everything by hand, without any of it. That kind of work is something
             I&rsquo;ll always look up to.
           </p>
+
+          <Link
+            href="/how-i-use-ai"
+            className="mt-4 inline-flex items-center gap-1 font-medium text-brand transition-colors hover:text-brand-deep"
+          >
+            More on how I use AI
+            <span aria-hidden>→</span>
+          </Link>
         </section>
 
         {/* The namesake — set apart as a warm cream artifact */}

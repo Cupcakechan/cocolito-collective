@@ -113,6 +113,54 @@ export const projects: Project[] = [
     // Newest entries first (the page also sorts by date, so order is forgiving).
     devlog: [
       {
+        date: "2026-06-18",
+        title: "v1.7.0 — The Pronggeist 🍴",
+        intro:
+          "The dungeon won't hold still anymore. A new horror joins the swarm, the floor shifts beneath your boots, and the Emberheart Robe has been reforged. 🔮",
+        sections: [
+          {
+            heading: "🍴 New Enemy — The Pronggeist",
+            items: [
+              "A cursed fork has wandered in, and it does not chase.",
+              "🔮 It shuffles into place, plants itself, and locks a four-row spike fork toward wherever you're standing.",
+              "⚡ The warning won't follow you — once it locks, commit a real sidestep clear of the whole gold band before the tines erupt.",
+              "Joins the rotation from Wave 7.",
+            ],
+          },
+          {
+            heading: "🏚️ The Shifting Dungeon",
+            items: [
+              "🪨 Defeat a boss and the arena floor transforms — ancient stone gives way to creaking wood, and back again, the deeper you push.",
+              "🐾 Your familiar will have something to say about it.",
+            ],
+          },
+          {
+            heading: "🔥 Emberheart Robe, Reforged",
+            items: [
+              "🔥 The Emberheart Robe now grants an Emergency Heal — drop below 25% HP and it pulls you back up to 50%, once per wave. No more praying for a flask.",
+              "💎 Now costs 8 Spirit Crystals; the Gilded Mantle drops to 6.",
+            ],
+          },
+          {
+            heading: "♿ Display & Accessibility",
+            items: [
+              "New options in Settings:",
+              "✨ Reduced Flash Effects — calms bright flashes (level-ups, hits, eruptions, acid pulses) while keeping every danger warning readable.",
+              "🟧 High Visibility Warnings — bold, high-contrast outlines on ground danger zones so they pop against any floor.",
+              "Both are off by default, flip on instantly, and remember your choice between runs.",
+            ],
+          },
+          {
+            heading: "📖 Quality of Life",
+            items: [
+              "📖 The Bestiary is now reachable straight from the Pause menu, right next to the Grimoire — size up what you're fighting without leaving your run.",
+              "👗 Wardrobe outfits are now sorted by price.",
+            ],
+          },
+        ],
+        outro: "Move sideways, and mean it. 👁️",
+      },
+      {
         date: "2026-06-17",
         title: "v1.6.0 — The Hive Warden 🐝",
         intro: "A new terror takes wing, and the dungeon floor grows older and stranger.",
