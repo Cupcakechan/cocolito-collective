@@ -30,7 +30,16 @@ export default function ArtCornerPage() {
 
       <p className="mt-6 max-w-2xl text-lg leading-relaxed text-peach">
         Sprite work and animations from my games — and a few from games still
-        taking shape. Every frame placed, and re-placed, by hand in Aseprite.
+        taking shape. The sprites start as generations from{" "}
+        <a
+          href="https://www.pixellab.ai/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-brand underline underline-offset-2 transition-colors hover:text-brand-deep"
+        >
+          PixelLab.ai
+        </a>
+        ; every frame is then placed, and re-placed, by hand in Aseprite.
       </p>
 
       <ArtGallery />
