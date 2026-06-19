@@ -426,12 +426,21 @@ export const projects: Project[] = [
     type: "App",
     category: "Apps",
     status: "In Progress",
-    stack: ["SwiftUI", "Supabase", "Next.js API Routes"],
+    stack: ["SwiftUI", "Supabase", "Next.js API Routes", "Grok"],
     accent: "#4A7C59", // soft green — matches the savoryshelf.com brand
     description:
-      "A recipe and cooking companion focused on clean recipe saving, practical cooking workflows, and distraction-free organization.",
+      "A calm, ad-free home for your recipes — save from anywhere or add your own, then turn any recipe into a category-sorted shopping list.",
     notes:
       "Should feel clean, calm, cozy, and useful — food-adjacent without being overly decorative.",
+    summary:
+      "Savory Shelf is a recipe and cooking companion built around one stubborn idea: a calm, clutter-free home for the food you actually cook — no ads to scroll past, no life story before the ingredients. Paste a recipe URL and it becomes a clean, scalable view; add your own and it's parsed into the same tidy format; then turn anything into a shopping list that already sorts itself by category.",
+    whatIBuilt:
+      "A native iOS app in SwiftUI, backed by Supabase, with a set of Next.js API routes powering the smarter features. I honestly wasn't sure what to build it on when I started, so I worked through the options with Claude and picked tools that would teach me something and hold up: SwiftUI for a real native feel, Supabase for storage and sync, and serverless routes for the recipe parsing, translation, and ingredient suggestions. The core already works — import a recipe by URL into a clean, scalable view, add your own and have it parsed into the same clean format, organize everything in one place, and build a shopping list that sorts by category. It's live on the web today while I build out the native version.",
+    whatMakesItInteresting:
+      "Two features I'm proudest of, and both come from real cooking friction rather than a feature checklist. The first is two-way translation between English and Spanish: any recipe can flip between the two, so a dish isn't trapped with whoever first wrote it down. The second is 'Suggest an alternative' — point it at an odd or hard-to-find ingredient and it offers a common one you're more likely to already have. The thread running through all of it is a refusal to waste the cook's time: no ads to swim through, no preamble, no clutter — just the recipe and what you need to make it. That principle is the whole reason it exists.",
+    links: {
+      website: "https://www.savoryshelf.com/",
+    },
   },
   {
     slug: "sprite-alive",
