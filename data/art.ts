@@ -57,7 +57,7 @@ export const artPieces: ArtPiece[] = [
     kind: "animation",
   },
   {
-  src: "/images/art/cola-courier-walk_n",
+  src: "/images/art/cola-courier-walk_n.gif",
   alt: "Pixel art walking north animation of the Cola Courier — an ape carrying a delivery basket on its back.",
   caption: "Cola Courier — walk",
   from: "Iju Cola Courier (in development)",
