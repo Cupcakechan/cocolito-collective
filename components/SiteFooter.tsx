@@ -25,6 +25,11 @@ export default function SiteFooter() {
                 </Link>
               </li>
               <li>
+                <Link href="/art" className="transition-colors hover:text-brand">
+                  Art
+                </Link>
+              </li>
+              <li>
                 <Link href="/about" className="transition-colors hover:text-brand">
                   About
                 </Link>

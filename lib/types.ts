@@ -92,3 +92,20 @@ export interface Project {
   // --- Credits (optional; a subtle attribution line on the detail page) ---
   credits?: ProjectCredit[];
 }
+
+// ── Art Corner ──────────────────────────────────────────
+// Pixel art pieces shown on /art. GIFs animate; PNGs are static.
+export type ArtKind = "animation" | "still";
+
+export interface ArtPiece {
+  /** e.g. "/images/art/captain-bee.gif" */
+  src: string;
+  /** Required for accessibility — describe what the piece shows. */
+  alt: string;
+  /** Short label shown under the piece, e.g. "Captain Bee". */
+  caption?: string;
+  /** Optional source label, e.g. "Honey River Raid". */
+  from?: string;
+  /** "animation" (GIF) or "still" (PNG). */
+  kind: ArtKind;
+}
