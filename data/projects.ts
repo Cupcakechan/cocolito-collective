@@ -441,6 +441,11 @@ export const projects: Project[] = [
     links: {
       website: "https://www.savoryshelf.com/",
     },
+    heroImage: {
+      src: "/images/projects/savory-shelf/import-screen.png",
+      alt: "Savory Shelf's recipe import screen — the Cook it your way headline above a field for pasting a recipe URL and an Import Recipe button.",
+      caption: "Importing a recipe by URL.",
+    },
   },
   {
     slug: "sprite-alive",
