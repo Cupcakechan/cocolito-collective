@@ -41,7 +41,7 @@ export default function AboutPage() {
           </h2>
           <p className="mt-3 leading-relaxed text-peach">
             I&rsquo;ve been a gamer for as long as I can remember. The first game
-            I truly fell into was <em>Star Wars: Force Commander</em> on my PC
+            I truly fell into was <em>Star Wars: Force Commander</em>{" "}on my PC
             back in 2000 &mdash; I played it endlessly, and from then on games
             were simply part of my daily life. Somewhere along the way, playing
             them turned into wanting to make them.
