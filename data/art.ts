@@ -17,7 +17,7 @@ export const artPieces: ArtPiece[] = [
   {
     src: "/images/art/bone-mage.gif",
     alt: "Pixel art attack animation of the Bone Mage — a skeleton in a purple wizard hat and robe casting with a staff.",
-    caption: "Bone Mage — casting",
+    caption: "Bone Mage",
     from: "Familiar Frenzy",
     kind: "animation",
   },
@@ -45,28 +45,28 @@ export const artPieces: ArtPiece[] = [
   {
   src: "/images/art/hourkeeper_idle.gif",
   alt: "Pixel art idle of Hourkeeper - a time-themed boss from Familiar Frenzy",
-  caption: "Hourkeeper - idle",
+  caption: "Hourkeeper",
   from: "Familiar Frenzy",
   kind: "animation", // "animation" for GIFs, "still" for PNGs
 },
   {
     src: "/images/art/cola-courier-idle.gif",
     alt: "Pixel art idle animation of the Cola Courier — an ape carrying a delivery basket on its back.",
-    caption: "Cola Courier — idle",
+    caption: "Cola Courier",
     from: "Iju Cola Courier (in development)",
     kind: "animation",
   },
   {
     src: "/images/art/cola-courier-walk.gif",
     alt: "Pixel art walk animation of the Cola Courier — an ape carrying a delivery basket on its back.",
-    caption: "Cola Courier — walk",
+    caption: "Cola Courier",
     from: "Iju Cola Courier (in development)",
     kind: "animation",
   },
   {
   src: "/images/art/cola-courier-walk_n.gif",
   alt: "Pixel art walking north animation of the Cola Courier — an ape carrying a delivery basket on its back.",
-  caption: "Cola Courier — walk",
+  caption: "Cola Courier",
   from: "Iju Cola Courier (in development)",
   kind: "animation", // "animation" for GIFs, "still" for PNGs
 },
