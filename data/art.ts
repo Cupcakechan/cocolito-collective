@@ -43,6 +43,13 @@ export const artPieces: ArtPiece[] = [
     kind: "animation",
   },
   {
+  src: "/images/art/hourkeeper_idle.gif",
+  alt: "Pixel art idle of Hourkeeper - a time-themed boss from Familiar Frenzy",
+  caption: "Hourkeeper - idle",
+  from: "Familiar Frenzy",
+  kind: "animation", // "animation" for GIFs, "still" for PNGs
+},
+  {
     src: "/images/art/cola-courier-idle.gif",
     alt: "Pixel art idle animation of the Cola Courier — an ape carrying a delivery basket on its back.",
     caption: "Cola Courier — idle",
@@ -61,13 +68,6 @@ export const artPieces: ArtPiece[] = [
   alt: "Pixel art walking north animation of the Cola Courier — an ape carrying a delivery basket on its back.",
   caption: "Cola Courier — walk",
   from: "Iju Cola Courier (in development)",
-  kind: "animation", // "animation" for GIFs, "still" for PNGs
-},
-{
-  src: "/images/art/chourkeeper_idle_.gif",
-  alt: "Pixel art idle of Hourkeeper - a time-themed boss from Familiar Frenzy",
-  caption: "Hourkeeper - idle",
-  from: "Familiar Frenzy",
   kind: "animation", // "animation" for GIFs, "still" for PNGs
 },
 ];
