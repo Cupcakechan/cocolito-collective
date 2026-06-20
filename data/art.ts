@@ -63,4 +63,11 @@ export const artPieces: ArtPiece[] = [
   from: "Iju Cola Courier (in development)",
   kind: "animation", // "animation" for GIFs, "still" for PNGs
 },
+{
+  src: "/images/art/chourkeeper_idle_.gif",
+  alt: "Pixel art idle of Hourkeeper - a time-themed boss from Familiar Frenzy",
+  caption: "Hourkeeper - idle",
+  from: "Familiar Frenzy",
+  kind: "animation", // "animation" for GIFs, "still" for PNGs
+},
 ];
