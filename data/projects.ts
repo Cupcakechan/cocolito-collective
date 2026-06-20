@@ -113,6 +113,78 @@ export const projects: Project[] = [
     // Newest entries first (the page also sorts by date, so order is forgiving).
     devlog: [
       {
+        date: "2026-06-20",
+        title: "v1.9.0 — Cursed Mode 🌑",
+        body: [
+          "🤖 Tin Bulwark is here — watch out for its attack, as it will push you into danger!",
+          "Mastered Endless? Then it's time to go deeper. Cursed Mode is a darker, harder way to run the arena — where survival comes at a price that grows with every boss you fell.",
+        ],
+        sections: [
+          {
+            heading: "🔮 Descend into the curse",
+            items: [
+              "Cursed Mode plays like Endless, but the dungeon turns faster: bosses arrive every five waves instead of ten. Each one you bring down lays a new random curse on your run — and they stack. The deeper you go, the more afflictions pile on. How long can you last as the dark closes in?",
+            ],
+          },
+          {
+            heading: "💀 Eight curses to suffer",
+            items: [
+              "Every descent draws its curses in a different order, so no two runs feel the same. The arena might drown in darkness until only a ring of light follows you… the slain might leave seething pools where they fall… your wards might turn brittle, every wound cutting deeper… or the horde itself might swell and flood the floor. There are eight in all — the rest are yours to uncover.",
+            ],
+          },
+          {
+            heading: "👻 Your familiar feels it too",
+            items: [
+              "When a new curse settles in, your ghost cat calls out a warning, and a row of curse icons on your HUD shows exactly what's gripping your run at a glance.",
+            ],
+          },
+          {
+            heading: "📜 The Curses archive",
+            items: [
+              "A new chapter joins the Arcane Archive — the Curses collection. Every curse you've survived is recorded there with its name and its bite. Suffer all eight to complete it.",
+            ],
+          },
+          {
+            heading: "🏆 Its own leaderboard",
+            items: [
+              "Cursed runs are scored on a separate high-score board — Endless and Cursed each get their own tab on the High Scores screen, so your bravest descents stand on their own.",
+            ],
+          },
+        ],
+        outro: "Light a candle, steady your familiar, and see how deep the dark will let you go. 🕯️",
+      },
+      {
+        date: "2026-06-19",
+        title: "v1.8.0 — The Hourkeeper 🕰️",
+        sections: [
+          {
+            heading: "⏳ A New Boss — The Hourkeeper",
+            items: [
+              "A clockwork keeper that bends the fight to its own rhythm — you can't just wail on it.",
+              "🌀 It vanishes, and great brass clock hands sweep the arena — step off the line as each one falls.",
+              "🔔 Then it returns, vulnerable, and the alarm runes tick… tick… burst — punish it while the alarms ring.",
+              "⚖️ As its dial winds down it gets meaner — faster strikes, denser runes, and at low health it sweeps a hand through itself while you punish, so you have to dodge without letting up.",
+              "✨ It blinks between sets, and a chime and clockwork clang now mark every cast and strike.",
+            ],
+          },
+          {
+            heading: "🖱️ Full mouse support",
+            items: [
+              "The cursor's back, and every screen is clickable now — hover to highlight, click to choose.",
+              "Menus, mode select, upgrade cards, pause, victory, and game over all take the mouse.",
+              "The Wardrobe, Grimoire, and Bestiary are clickable too, with scroll wheels and draggable scrollbars; Settings has click-and-drag volume sliders.",
+              "Keyboard still does everything — the mouse just adds a second way in.",
+            ],
+          },
+          {
+            heading: "🖥️ Fullscreen, properly",
+            items: [
+              "The game now scales to fill the screen — crisp pixels, correct aspect ratio — so the fullscreen button finally fills your monitor instead of a tiny centered window.",
+            ],
+          },
+        ],
+      },
+      {
         date: "2026-06-18",
         title: "v1.7.0 — The Pronggeist 🍴",
         intro:
