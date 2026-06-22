@@ -52,35 +52,35 @@ export const artPieces: ArtPiece[] = [
   {
     src: "/images/art/cola-courier-idle.gif",
     alt: "Pixel art idle animation of the Cola Courier — an ape carrying a delivery basket on its back.",
-    caption: "Cola Courier",
+    caption: "Cola Courier Idling",
     from: "Iju Cola Courier (in development)",
     kind: "animation",
   },
   {
     src: "/images/art/cola-courier-walk.gif",
     alt: "Pixel art walk animation of the Cola Courier — an ape carrying a delivery basket on its back.",
-    caption: "Cola Courier",
+    caption: "Cola Courier Walking",
     from: "Iju Cola Courier (in development)",
     kind: "animation",
   },
   {
   src: "/images/art/cola-courier-walk_n.gif",
   alt: "Pixel art walking north animation of the Cola Courier — an ape carrying a delivery basket on its back.",
-  caption: "Cola Courier",
+  caption: "Cola Courier Walking North",
   from: "Iju Cola Courier (in development)",
   kind: "animation", // "animation" for GIFs, "still" for PNGs
 },
 {
   src: "/images/art/cola-courier-celebrate.gif",
   alt: "Pixel art celebrating animation of the Cola Courier — an ape carrying a delivery basket on its back.",
-  caption: "Cola Courier",
+  caption: "Cola Courier Celebrating!",
   from: "Iju Cola Courier (in development)",
   kind: "animation", // "animation" for GIFs, "still" for PNGs
 },
 {
   src: "/images/art/cola-courier-burst.gif",
   alt: "Pixel art angry animation of the Cola Courier — an ape carrying a delivery basket on its back.",
-  caption: "Cola Courier",
+  caption: "Cola Courier Angry",
   from: "Iju Cola Courier (in development)",
   kind: "animation", // "animation" for GIFs, "still" for PNGs
 },
