@@ -70,4 +70,18 @@ export const artPieces: ArtPiece[] = [
   from: "Iju Cola Courier (in development)",
   kind: "animation", // "animation" for GIFs, "still" for PNGs
 },
+{
+  src: "/images/art/cola-courier-celebrate.gif",
+  alt: "Pixel art celebrating animation of the Cola Courier — an ape carrying a delivery basket on its back.",
+  caption: "Cola Courier",
+  from: "Iju Cola Courier (in development)",
+  kind: "animation", // "animation" for GIFs, "still" for PNGs
+},
+{
+  src: "/images/art/cola-courier-burst.gif",
+  alt: "Pixel art angry animation of the Cola Courier — an ape carrying a delivery basket on its back.",
+  caption: "Cola Courier",
+  from: "Iju Cola Courier (in development)",
+  kind: "animation", // "animation" for GIFs, "still" for PNGs
+},
 ];
