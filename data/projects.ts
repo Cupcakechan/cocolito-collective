@@ -113,6 +113,51 @@ export const projects: Project[] = [
     // Newest entries first (the page also sorts by date, so order is forgiving).
     devlog: [
       {
+        date: "2026-06-22",
+        title: "v1.10.0 — Familiars: Owl & Fox 🦉🦊",
+        intro:
+          "Your ghost cat now has company. The Wardrobe gains a whole new category — Familiars — and two new spirit companions, each with its own passive and its own twist on Spirit Imbued. Plus a Cursed Mode tune-up and a mode rename. 🔮",
+        sections: [
+          {
+            heading: "🐾 New: the Familiars category",
+            items: [
+              "The Wardrobe is now three tabs — Outfits, Familiars, and Collars. Your collar still decides your familiar's normal attack (Spirit runes, Moon Beam, or Alchemist flasks); your familiar now decides its look, a small passive, and what its Spirit Imbued unleashes.",
+              "Mix and match freely — the collar preview even shows your equipped familiar wearing each collar, and the new Familiars page in the Arcane Archive 📖 catalogs them all.",
+            ],
+          },
+          {
+            heading: "🦊 Fox Familiar — Foxfire Chain (6 ◆)",
+            items: [
+              "A sly spirit that spreads foxfire between foes.",
+              "🔥 Foxfire Chain (Spirit Imbued) — looses foxfire wisps that bounce from enemy to enemy. Devastating against packs; it won't melt a lone boss. Where the Owl picks one target, the Fox spreads the burn across the crowd.",
+              "🍀 Trickster Luck (passive) — rare pickups (health flasks & Spirit Magnets) turn up a little more often. Plays nicely with Lucky Paws, and leaves Spirit Crystals alone.",
+            ],
+          },
+          {
+            heading: "🦉 Owl Familiar — Astral Judgment (6 ◆)",
+            items: [
+              "A wise spirit that sharpens the bond.",
+              "✨ Astral Judgment (Spirit Imbued) — strikes the most dangerous foe on the field with arcane precision, favoring bosses and casters over nearby stragglers.",
+              "🌙 Star-Eyed Focus (passive) — Spirit Imbued charges a touch faster from the motes you collect.",
+            ],
+          },
+          {
+            heading: "😼 Cursed Mode rebalance",
+            items: [
+              "Cursed runs were a slog of spongy enemies. The cursed are now a little less tanky but hit noticeably harder — faster, sharper, more dangerous fights instead of long grinds. ⚰️",
+            ],
+          },
+          {
+            heading: "📛 “Endless” is now “Casual”",
+            items: [
+              "The endless run mode is renamed Casual to better fit how it plays. Your best waves, scores, and saves all carry over untouched.",
+            ],
+          },
+        ],
+        outro:
+          "Every existing outfit, collar, the Cat familiar, and your saves are fully intact. 🐈‍⬛",
+      },
+      {
         date: "2026-06-20",
         title: "v1.9.0 — Cursed Mode 🌑",
         body: [
