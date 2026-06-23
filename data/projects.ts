@@ -58,7 +58,7 @@ export const projects: Project[] = [
     title: "Familiar Frenzy",
     type: "Browser Game / Game Jam",
     category: "Games",
-    status: "In Progress",
+    status: "Released",
     stack: ["HTML Canvas", "JavaScript"],
     accent: "#6B5EA8", // spirit purple
     featured: true, // shows in the large "featured" card on the shelf
@@ -112,6 +112,38 @@ export const projects: Project[] = [
     ],
     // Newest entries first (the page also sorts by date, so order is forgiving).
     devlog: [
+      {
+        date: "2026-06-23",
+        title: "v1.11.0 — The roster is complete 🐦‍⬛🦇",
+        intro:
+          "Two new spirit companions finish the familiar lineup — and runs now begin with a loadout screen so you'll actually see them. 🔮",
+        sections: [
+          {
+            heading: "🐦‍⬛ Raven Familiar — Grave Tax (10 ◆)",
+            items: [
+              "The premium survival familiar — your key to pushing deep into Cursed Mode.",
+              "💀 Grave Tax (Spirit Imbued) — marks several foes with a death omen; kill a marked enemy before the mark fades and it's guaranteed to drop a healing feather. No free heals — you earn every one.",
+              "🪶 Scavenger's Gift (passive) — slain enemies may release a small healing feather, drawing life from the fallen.",
+              "🦇 Built for Cursed Mode: feathers fall even under Withering (which blocks normal flasks), rewarding aggressive, skilled play through stacked curses — without making the descent easy.",
+            ],
+          },
+          {
+            heading: "🦇 Bat Familiar — Echo Swarm (6 ◆)",
+            items: [
+              "A sharp-eared spirit for when the swarm closes in.",
+              "🔊 Echo Swarm (Spirit Imbued) — looses expanding echo rings that wash over everything nearby. Brutal against packs; it won't bring down a lone boss.",
+              "🌙 Night Sense (passive) — draws pickups in from a little farther.",
+            ],
+          },
+          {
+            heading: "🧥 A loadout screen before every run",
+            items: [
+              "Choosing Casual or Cursed now opens the Wardrobe as a loadout screen — titled for your run, your current loadout shown at a glance, and a Start Run button when you're ready. The main-menu Wardrobe is still there as a normal shop, and Tutorial jumps straight in.",
+              "Every familiar works with every collar — only the look, the passive, and the Spirit Imbued change. The full lineup: 🐈‍⬛ Cat · 🦉 Owl · 🦊 Fox · 🦇 Bat · 🐦‍⬛ Raven. Your saves carry over. 🐾",
+            ],
+          },
+        ],
+      },
       {
         date: "2026-06-22",
         title: "v1.10.0 — Familiars: Owl & Fox 🦉🦊",
